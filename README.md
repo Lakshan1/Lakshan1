@@ -1,6 +1,8 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Shanthakumar Lakshan
+============================================================================================================================================
 
 Software Engineer
+-----------------
 
 Hey there! I'm Shanthakumar Lakshan, IT enthusiast who recently wrapped up a Higher National Diploma at the Advanced Technological Institution. Currently interning at Exline Labs, I'm diving deep into the practical side of things. When I'm not at work, I love staying on top of tech trends and tinkering with new technologies. Excited about the journey ahead and ready to make a mark in the ever-evolving IT world! 🚀
 
