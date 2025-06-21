@@ -1,0 +1,60 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*
+  Define custom properties (CSS variables) for the color palette.
+  This makes it easy to manage colors centrally.
+*/
+:root {
+  --bg-dark: #1E1E1E;
+  --bg-light: #2D2D2D;
+  --accent-yellow: #FFC700;
+  --text-light: #F5F5F5;
+  --text-medium: #A8A8A8;
+}
+
+/*
+  Apply base styles to the body.
+  We set the default background, text color, and font family here.
+*/
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Tailwind CSS configuration (for reference if you were using a config file)
+  You can use these CSS variables directly in Tailwind classes like `bg-[var(--bg-dark)]`
+  or you can extend Tailwind's theme.
+  
+  tailwind.config.js = {
+    theme: {
+      extend: {
+        colors: {
+          dark: 'var(--bg-dark)',
+          light: 'var(--bg-light)',
+          accent: 'var(--accent-yellow)',
+          'text-light': 'var(--text-light)',
+          'text-medium': 'var(--text-medium)',
+        }
+      }
+    }
+  }
+*/
+
+/* Custom utility class to match the design's accent underline */
+.accent-underline {
+    position: relative;
+    display: inline-block;
+}
+
+.accent-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: var(--accent-yellow);
+}
+
