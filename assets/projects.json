@@ -5,7 +5,10 @@
         "category": "Desktop application",
         "link": "project.html?project=KeyMate",
         "description": "KeyMate is a secure, offline password manager application designed to store your sensitive login credentials directly on your computer with robust encryption. Unlike cloud-based solutions, KeyMate ensures your data remains entirely under your control, never connecting to external servers. This provides an enhanced layer of privacy and security, as your passwords are not susceptible to breaches affecting online services. With KeyMate, you can manage your digital identities confidently, knowing your information is protected locally with industry-standard encryption techniques.",
-        "technologies": ["Tauri", "Vue.js"],
+        "technologies": [
+            "Tauri",
+            "Vue.js"
+        ],
         "images": [
             "assets/keymatecover.png",
             "assets/keymate1.png",
@@ -23,6 +26,33 @@
                 "type": "setup",
                 "link": "https://github.com/Lakshan1/KeyMate/releases/download/v0.1.2/KeyMate_0.1.2_x64_en-US.msi",
                 "filename": "KeyMate_0.1.2_x64_en-US.msi"
+            }
+        ]
+    },
+    {
+        "title": "WeSynk",
+        "coverImagePath": "assets/wesynkcover.png",
+        "category": "Mobile application",
+        "link": "project.html?project=WeSynk",
+        "description": "WeSynk is a music sharing app that lets you start a party, invite friends, and listen to music together in real-time, whether you're on the same Wi-Fi or across the world.",
+        "technologies": [
+            "Flutter",
+            "Firebase"
+        ],
+        "images": [
+            "assets/wesynkcover.png",
+            "assets/wesynk1.png",
+            "assets/wesynk2.png",
+            "assets/wesynk3.png"
+        ],
+        "options": [
+            {
+                "type": "playstore-link",
+                "link": "https://play.google.com/store/apps/details?id=com.shanthakumarlakshan.music_app"
+            },
+            {
+                "type": "apptore-link",
+                "link": "https://apps.apple.com/us/app/wesynk/id6752572461"
             }
         ]
     }
