@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Details</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <!-- GSAP Animation Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    
+
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -17,10 +18,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="bg-dark text-light font-poppins">
 
     <div class="max-w-6xl mx-auto p-5 md:p-10">
@@ -28,7 +30,9 @@
         <!-- Header -->
         <header class="flex justify-between items-center py-4 anim-fade-down">
             <a href="index.html" class="text-2xl font-bold text-accent">L.</a>
-            <a href="index.html#works" class="text-accent border-b border-accent pb-1 hover:text-light hover:border-light transition-colors duration-300">← Back to Portfolio</a>
+            <a href="index.html#works"
+                class="text-accent border-b border-accent pb-1 hover:text-light hover:border-light transition-colors duration-300">←
+                Back to Portfolio</a>
         </header>
 
         <main class="my-16">
@@ -40,30 +44,41 @@
 
             <!-- Main Project Image -->
             <div class="mb-12 anim-fade-up" style="animation-delay: 0.2s;">
-                <img src="https://placehold.co/1200x600/2D2D2D/FFC700?text=BeServer+Main+Image" alt="Project" id="project-cover" class="rounded-lg w-full">
+                <img src="https://placehold.co/1200x600/2D2D2D/FFC700?text=BeServer+Main+Image" alt="Project"
+                    id="project-cover" class="rounded-lg w-full">
             </div>
 
-            
+
             <!-- Project Details -->
             <div class="grid md:grid-cols-3 gap-16 anim-fade-up" style="animation-delay: 0.4s;">
                 <div class="md:col-span-2 space-y-6">
                     <h2 class="text-3xl font-semibold">Project Overview</h2>
                     <p class="font-light text-lg" id="project-description">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                        beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                        odit aut fugit.
                     </p>
 
                     <div class="relative inline-block text-left">
                         <div>
-                            <button type="button" id="dropdownButton" class="inline-flex justify-center w-full rounded-md border border-gray-700 shadow-sm px-8 py-4 bg-light text-sm font-medium text-light hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-accent" aria-haspopup="true" aria-expanded="true">
+                            <button type="button" id="dropdownButton"
+                                class="inline-flex justify-center w-full rounded-md border border-gray-700 shadow-sm px-8 py-4 bg-light text-sm font-medium text-light hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-accent"
+                                aria-haspopup="true" aria-expanded="true">
                                 Download Options
-                                <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                    fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
                                 </svg>
                             </button>
                         </div>
-                        <div id="dropdownMenu" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-light ring-1 ring-black ring-opacity-5 focus:outline-none hidden z-10 bg-[--bg-light]">
-                            <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu" id="project-options">
-                                
+                        <div id="dropdownMenu"
+                            class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-light ring-1 ring-black ring-opacity-5 focus:outline-none hidden z-10 bg-[--bg-light]">
+                            <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu"
+                                id="project-options">
+
                             </div>
                         </div>
                     </div>
@@ -71,34 +86,34 @@
                 <div class="space-y-6">
                     <h3 class="text-2xl font-semibold">Tech Stack</h3>
                     <ul class="space-y-2 font-light" id="project-technologies">
-                        
+
                     </ul>
                 </div>
             </div>
 
             <!-- Image Gallery -->
             <div class="mt-28 mb-16 anim-fade-up" style="animation-delay: 0.8s;">
-                 <h2 class="text-3xl font-semibold text-center mb-8">Project Gallery</h2>
-                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="projects-gallery">
-                   
-                 </div>
+                <h2 class="text-3xl font-semibold text-center mb-8">Project Gallery</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="projects-gallery">
+
+                </div>
             </div>
 
         </main>
-        
+
         <!-- Footer -->
         <footer class="text-center p-6 text-medium text-sm border-t border-light">
-            <p>&copy; 2025 Shanthakumar Lakshan. Crafted with passion.</p>
+            <p>&copy; 2026 Shanthakumar Lakshan. Crafted with passion.</p>
         </footer>
 
     </div>
-    
+
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             fetch('assets/projects.json')
                 .then(response => response.json())
                 .then(projects => {
-                     // Extract project ID from URL
+                    // Extract project ID from URL
                     const urlParams = new URLSearchParams(window.location.search);
                     const title = urlParams.get('project');
 
@@ -143,15 +158,15 @@
                             <!-- 
                                 
                                 
-                                 -->
+                                  ->
 
                             if (option.type === 'link') {
                                 projectOptions.innerHTML += `<a href="${option.link}" class="flex items-center gap-3 px-4 py-2 text-sm text-light hover:bg-gray-700" role="menuitem"><i class="fas fa-globe w-4"></i> View Live Website</a>`;
-                            }else if (option.type === 'apptore-link') {
+                            } else if (option.type === 'apptore-link') {
                                 projectOptions.innerHTML += `<a href="${option.link}" class="flex items-center gap-3 px-4 py-2 text-sm text-light hover:bg-gray-700" role="menuitem"><i class="fab fa-apple w-4"></i> App Store</a>`;
-                            }else if (option.type === 'playstore-link') {
+                            } else if (option.type === 'playstore-link') {
                                 projectOptions.innerHTML += `<a href="${option.link}" class="flex items-center gap-3 px-4 py-2 text-sm text-light hover:bg-gray-700" role="menuitem"><i class="fab fa-google-play w-4"></i> Play Store</a>`;
-                            }else if (option.type === 'setup') {
+                            } else if (option.type === 'setup') {
                                 projectOptions.innerHTML += `<a href="${option.link}" download class="flex items-center gap-3 px-4 py-2 text-sm text-light hover:bg-gray-700" role="menuitem"><i class="fas fa-file-archive w-4"></i>${option.filename}</a>`
                             }
 
@@ -163,7 +178,7 @@
                 .catch(error => console.error('Error loading projects:', error));
 
             // Function to expand image in a modal
-            window.expandImage = function(imageSrc) {
+            window.expandImage = function (imageSrc) {
                 const modal = document.createElement('div');
                 modal.classList.add('fixed', 'inset-0', 'bg-black', 'bg-opacity-75', 'flex', 'items-center', 'justify-center', 'z-50', 'p-4');
                 modal.innerHTML = `
@@ -200,7 +215,7 @@
             });
 
             // Close dropdown when clicking outside
-            window.addEventListener('click', function(e) {
+            window.addEventListener('click', function (e) {
                 if (!dropdownButton.contains(e.target) && !dropdownMenu.contains(e.target)) {
                     isDropdownOpen = false;
                     dropdownMenu.classList.add('hidden');
@@ -209,4 +224,5 @@
         });
     </script>
 </body>
+
 </html>
