@@ -8,7 +8,6 @@ Hey there! I'm Shanthakumar Lakshan, IT enthusiast who recently wrapped up a Hig
 
 * 🌍  I'm based in Sri lanka
 * ✉️  You can contact me at [lak4837@gmail.com](mailto:lak4837@gmail.com)
-* 🚀  I'm currently working on [40Love](http://40love.com/)
 * 🧠  I'm learning Flutter, Vue.js, Mern Stack
 * 🤝  I'm open to collaborating on Mobile application and Web application projects
 * ⚡  I'm iron man
